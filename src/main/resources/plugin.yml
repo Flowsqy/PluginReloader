@@ -2,3 +2,17 @@ name: PluginReloader
 author: Flowsqy
 version: ${project.version}
 main: fr.flowsqy.pluginreloader.PluginReloaderPlugin
+commands:
+  pluginreload:
+    description: Reload a plugin
+    usage: /<command> <plugin>
+    aliases:
+      - pluginrl
+      - plreload
+      - preload
+      - pluginr
+      - plrl
+      - prl
+      - prl
+      - pr
+    permission: pluginreloader.command
