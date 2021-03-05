@@ -1,0 +1,4 @@
+name: PluginReloader
+author: Flowsqy
+version: ${project.version}
+main: fr.flowsqy.pluginreloader.PluginReloaderPlugin
