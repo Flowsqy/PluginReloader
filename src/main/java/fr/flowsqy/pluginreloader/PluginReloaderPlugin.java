@@ -6,8 +6,9 @@ public class PluginReloaderPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        new PermissionManager(this);
 
-
+        new PluginReloaderCommand(this);
 
     }
 }
