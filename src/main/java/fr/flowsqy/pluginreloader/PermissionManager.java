@@ -28,7 +28,6 @@ public class PermissionManager implements Listener {
     }
 
     private void registerPermission(String plugin){
-        System.out.println(plugin);
         final Permission permission = new Permission(BASE_PERM+"."+plugin);
         permission.addParent(GLOBAL_PERM, true);
         permission.getChildren().put(BASE_PERM, true);
