@@ -56,6 +56,7 @@ public class PluginReloaderCommand implements TabExecutor {
             try {
                 pluginManager.loadPlugin(pluginFile);
                 sender.sendMessage("Successfully load the plugin");
+                return true;
             } catch (InvalidPluginException | InvalidDescriptionException e) {
                 sender.sendMessage("Can not load the plugin after his disabling");
                 return true;
